@@ -1,0 +1,141 @@
+:root {
+  --site-logo-color: #2196f3;
+  --contacts-links-color: #757575;
+  --footer-link-address-color: #ffffff;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --initial-text-color: #757575;
+  --contacts-link-accent-color: #2196f3;
+  --footer-background-color: #2f303a;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+
+.site-nav-link {
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: inherit;
+}
+.site-nav {
+  list-style: none;
+}
+.site-logo {
+  list-style: none;
+  text-decoration: none;
+  color: var(--site-logo-color);
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.contacts {
+  list-style: none;
+}
+.contacts-link,
+.contacts-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--contacts-links-color);
+}
+.contacts-link:hover {
+  color: var(--contacts-link-accent-color);
+}
+.button {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+}
+.button-link {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.section {
+  background-color: #2f303a;
+}
+.main-title {
+  color: #ffffff;
+}
+
+.button-link:hover {
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+}
+.section-team-description {
+  color: var(--initial-text-color);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.button-list {
+  list-style: none;
+}
+.section-list {
+  list-style: none;
+}
+.section-link {
+  text-decoration: none;
+}
+.section-list-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section-features-text {
+  color: var(--initial-text-color);
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+.title-activities {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.section-team-title {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.section-team-description {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--initial-text-color);
+}
+.footer {
+  background-color: var(--footer-background-color);
+}
+.footer-contacts {
+  list-style: none;
+}
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--footer-link-color);
+}
+.footer-contacts-link:hover {
+  color: var(--contacts-link-accent-color);
+}
+.contacts-link-address {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--footer-link-address-color);
+}
+.section-features,
+.section-activities,
+.section-team {
+  list-style: none;
+}
