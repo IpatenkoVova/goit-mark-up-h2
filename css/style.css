@@ -90,7 +90,7 @@ body {
 }
 .section-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--initial-text-color);
 }
