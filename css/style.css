@@ -1,135 +1,142 @@
 :root {
-  --site-logo-color: #2196f3;
-  --contacts-links-color: #757575;
-  --footer-link-address-color: #ffffff;
-  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --accent-link-color: #2196f3;
+  --main-color: #212121;
   --initial-text-color: #757575;
-  --contacts-link-accent-color: #2196f3;
-  --footer-background-color: #2f303a;
+  --address-link-color: #ffffff;
 }
 body {
   font-family: Roboto, sans-serif;
-  color: #212121;
+  color: var(--main-color);
 }
-
-.site-nav-link {
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+.site-logo .logo-web {
+  color: #2196f3;
+}
+.site-logo {
   color: inherit;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .site-nav {
   list-style: none;
 }
-.site-nav-studia {
-  text-decoration: none;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
+.site-nav-link {
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: inherit;
 }
-.site-nav-portfolio {
-  text-decoration: none;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: inherit;
-}
-.site-nav-contacts {
-  text-decoration: none;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: inherit;
-}
-.site-nav-contacts:hover,
-.site-nav-portfolio:hover,
-.site-nav-studia:hover {
-  color: var(--contacts-link-accent-color);
-}
-.header-nav {
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+.site-nav-link:hover {
+  color: var(--accent-link-color);
 }
 
-.site-logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  list-style: none;
-  text-decoration: none;
-  color: var(--site-logo-color);
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.contacts {
-  list-style: none;
-}
-.contacts-email-link {
-  text-decoration: none;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-  letter-spacing: 0.02em;
-  color: var(--contacts-links-color);
-}
-.contacts-tel-link {
-  text-decoration: none;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
+.header-contacts-link {
+  font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.1;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--initial-text-color);
 }
-.contacts-email-link:hover,
-.contacts-tel-link:hover {
-  color: var(--contacts-link-accent-color);
+.header-contacts-link:hover {
+  color: var(--accent-link-color);
+}
+.header-contacts {
+  list-style: none;
+}
+.footer-contacts {
+  list-style: none;
+}
+.footer-contacts-link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts-link:hover {
+  color: var(--accent-link-color);
+}
+.contacts-link-address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--address-link-color);
+}
+.section {
+  background-color: #2f303a;
+}
+.main-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .button {
-  cursor: pointer;
-  text-align: center;
-  align-items: center;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-.button-text {
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 440px;
-  font-size: 16px;
+  font-family: inherit;
+  font-weight: bold;
   align-items: center;
   text-align: center;
-  line-height: 1.9;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button:hover {
+  cursor: pointer;
+}
+.section-features-title {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+.section-features-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--initial-text-color);
+}
+.title-activities {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-team-title {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-worker-name {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-worker-profession {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-list {
+  list-style: none;
+}
+.button-list {
+  list-style: none;
 }
 .button-link {
   font-size: 16px;
@@ -137,260 +144,26 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section {
-  height: 600px;
-  background-color: #2f303a;
-}
-.section-features-title-one {
-  width: 270px;
-  height: 16px;
-  left: 215px;
-  top: 774px;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: inherit;
-}
-.section-features-title-two {
-  width: 270px;
-  height: 16px;
-  left: 515px;
-  top: 774px;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: inherit;
-}
-.section-features-title-three {
-  width: 270px;
-  height: 16px;
-  left: 815px;
-  top: 774px;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: inherit;
-}
-.section-features-title-four {
-  width: 270px;
-  height: 16px;
-  left: 1115px;
-  top: 774px;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: inherit;
-}
-.section-features-text-one {
-  width: 270px;
-  height: 75px;
-  left: 215px;
-  top: 800px;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--initial-text-color);
-}
-.section-features-text-two {
-  width: 270px;
-  height: 75px;
-  left: 515px;
-  top: 800px;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--initial-text-color);
-}
-.section-features-text-three {
-  width: 270px;
-  height: 75px;
-  left: 815px;
-  top: 800px;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--initial-text-color);
-}
-.section-features-text-four {
-  width: 270px;
-  height: 75px;
-  left: 1115px;
-  top: 800px;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--initial-text-color);
-}
-.main-title {
-  color: #ffffff;
-  font-size: 44px;
-  line-height: 1.4;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
 .button-link:hover {
   cursor: pointer;
-  color: white;
-  background-color: blue;
+  color: #ffffff;
+  background-color: var(--accent-link-color);
 }
-.section-team-description {
-  color: var(--initial-text-color);
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-.button-list {
-  list-style: none;
-}
-.section-list {
-  list-style: none;
-}
-
 .section-list-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: inherit;
 }
 .section-text {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: var(--initial-text-color);
-}
-.title-activities {
-  width: 376px;
-  height: 42px;
-  left: 612px;
-  top: 969px;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-.section-worker-title-one {
-  width: 151px;
-  height: 19px;
-  left: 275px;
-  top: 1925px;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.section-worker-title-two {
-  width: 109px;
-  height: 19px;
-  left: 596px;
-  top: 1925px;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.section-worker-title-three {
-  width: 137px;
-  height: 19px;
-  left: 882px;
-  top: 1925px;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.section-worker-title-four {
-  width: 134px;
-  height: 19px;
-  left: 1183px;
-  top: 1925px;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.section-worker-description-one {
-  width: 130px;
-  height: 19px;
-  left: 285px;
-  top: 1954px;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--initial-text-color);
-}
-.section-worker-description-two {
-  width: 147px;
-  height: 19px;
-  left: 577px;
-  top: 1954px;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--initial-text-color);
-}
-.section-worker-description-three {
-  width: 76px;
-  height: 19px;
-  left: 912px;
-  top: 1954px;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--initial-text-color);
-}
-.section-worker-description-four {
-  width: 87px;
-  height: 19px;
-  left: 1207px;
-  top: 1954px;
-  font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--initial-text-color);
-}
-.section-team-description {
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--initial-text-color);
 }
 .footer {
-  background-color: var(--footer-background-color);
+  background-color: #2f303a;
 }
-.footer-contacts {
-  list-style: none;
-}
-.footer-contacts-link {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--footer-link-color);
-}
-.footer-contacts-link:hover {
-  color: var(--contacts-link-accent-color);
-}
-.contacts-link-address {
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--footer-link-address-color);
-}
-.section-features,
 .section-activities,
+.section-features,
 .section-team {
   list-style: none;
 }
