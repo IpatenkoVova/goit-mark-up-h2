@@ -8,16 +8,27 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--main-color);
 }
-.site-logo .logo-web {
+.header-site-logo .logo-web {
   color: #2196f3;
 }
-.site-logo {
+.header-site-logo {
   color: inherit;
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+.footer-site-logo {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.footer-site-logo .logo-web {
+  color: #2196f3;
 }
 .site-nav {
   list-style: none;
